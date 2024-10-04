@@ -22,6 +22,13 @@ export class AppComponent {
     id:0,
     city: ''
   };
+  items: any[]  = [];
+
+  selectedItem: any;
+
+  suggestions: any[]  = ["Indai","Shrila nka","USa","APPP","Pakistan"];
+
+  
 
   constructor() {
     //this.student.

@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { EmployeeComponent } from './pages/employee/employee.component';
 import { AttendanceComponent } from './pages/attendance/attendance.component';
 import { SalaryComponent } from './pages/salary/salary.component';
-
+import { DropdownModule } from 'primeng/dropdown';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,9 @@ import { SalaryComponent } from './pages/salary/salary.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    DropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
